@@ -30,6 +30,8 @@ function salario($salario,$hora_extra){
 salario(855000,10); // llamando con doble parametro
 echo "<br>";
 
+echo "<br> - - - - - - - <br>";
+
 echo "1. Triangulo<br>2. Circulo<br>3. Rectangulo<br>";
 
 function hallarAreaDe($op){
@@ -62,5 +64,40 @@ function hallarAreaDe($op){
     }
 }
 hallarAreaDe(2); // llamamos funcion
+
+echo "<br> - - - - - - - <br>";
+
+function setHeight(int $minheight = 50) { // DAR VALOR POR DEFECO
+    echo "The height is : $minheight <br>"; // PRINT
+  }
+  
+  setHeight(350);
+  setHeight(); // will use the default value of 50
+  setHeight(135);
+  setHeight(80);
+
+  echo "<br> - - - - - - - <br>";
+
+  function addNumbers(float $a, float $b) : float { // ESPECIFICAMOS EL TIPO DE RETORNO
+    return $a + $b;
+  }
+  echo addNumbers(1.2, 5.2);
+
+  echo "<br> - - - - - - - <br>";
+
+  function addNumbers(float $a, float $b) : int { // ESPECIFICAMOS EL TIPO DE RETORNO
+    return (int)($a + $b); // EN ESTE CASO EL RESULTADO PASARA A INT
+  }
+  echo addNumbers(1.2, 5.2); // 6
+
+  echo "<br> - - - - - - - <br>";
+
+  function add_five(&$value) { // SIRVE PARA GUARDAR LA RESPUESTA QUE SE DA POR PARAMETRO (O ARGUMENTO)
+    $value += 5;
+  }
+  
+  $num = 2;
+  add_five($num); // SE GUARDA LA RESPUESTA EN EL ARGUMENTO
+  echo $num; // SE IMPRIME EL ARGUMENTO CON EL VALOR GUARDADO
 
 ?>
