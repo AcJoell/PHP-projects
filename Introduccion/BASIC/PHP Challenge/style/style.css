@@ -1,0 +1,123 @@
+body {
+  background: #eaeaea;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HACIENDO HEADER DE LA PAGINA */
+
+header {
+  align-items: center;
+  background: #252a34;
+  border-top: 3px solid #ff2e63;
+  border-bottom: 5px solid #ff2e63;
+  display: flex;
+  font-family: Helvetica;
+  font-size: 5px;
+  height: 80px;
+  justify-content: center;
+  width: 100%;
+}
+.cont-header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+}
+.cont-header h2 {
+  color: #eaeaea;
+  font-size: 40px;
+}
+
+/* CONTENEDOR DE LOS FORMULARIOS */
+
+.cont-form {
+  align-items: center;
+  background: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.sub-contain_form {
+  width: 80%;
+}
+
+/* FORMULARIO */
+
+form {
+  background: #252a34;
+  border: 5px double #ff2e63;
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  padding: 15px 50px;
+  margin: 5px;
+}
+form input {
+  width: 100px;
+  background: #eaeaea;
+}
+.boton {
+  align-self: center;
+  background: #08d9d6;
+  color: #252a34;
+  font-size: 18px;
+  margin-top: 3px;
+  padding: 5px 10px;
+  font-weight: lighter;
+}
+.boton:hover {
+  background: #0d817f;
+  color: #eaeaea;
+  font-size: 20px;
+  margin-bottom: 3px;
+  padding: 4px;
+}
+
+a {
+  background: #252a34;
+  color: #eaeaea;
+  font-size: 18px;
+  margin-top: 3px;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+a:hover {
+  font-size: 20px;
+  margin-bottom: 3px;
+  padding: -4px;
+}
+
+/* HACIENDO FOOTER DE LA PAGINA */
+footer {
+  align-items: center;
+  background: #252a34;
+  border-top: 3px solid #ff2e63;
+  border-bottom: 5px solid #ff2e63;
+  display: flex;
+  font-family: Helvetica;
+  font-size: 5px;
+  height: 80px;
+  justify-content: center;
+  width: 100%;
+}
+.cont-footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+}
+.cont-footer h2 {
+  color: #eaeaea;
+  font-size: 25px;
+}
