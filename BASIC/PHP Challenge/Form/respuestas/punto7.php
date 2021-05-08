@@ -48,7 +48,7 @@ este imprime exactamente esta secuencia sin ningun tipo de error con los datos p
 
                 // utilizamos foreach para recorrer facilmente el array sin complicarnos
                 foreach($secuencia as $print=>$pri){ // $print es la posicion del valor que queremos, por eso el => (arrow) donde llamamos a $pri que almacena la secuencia Fibonacci que guardamos en el for anterior
-                    echo $pri. " | "; / imprimimos
+                    echo $pri. " | "; // imprimimos
                 }
             }        
             
